@@ -1,5 +1,8 @@
 # Site Build Settings
 
+# Base url, set to '' when previewing locally using jekyll serve --baseurl ''
+baseurl:             /alejandrogonzalez.net
+
 # jekyll-paginate configuration
 paginate:            5
 
