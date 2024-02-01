@@ -148,7 +148,7 @@ support: [jquery, gallery]
     path: function() {
       let pageNumber = ( this.loadCount + 2 );
       if ( pageNumber <= {{ page.pagecount }} ) {
-        return `/page${pageNumber}`;
+        return `{{ site.baseurl }}/page${pageNumber}`;
       }
     },
     append: '.grid-item',
