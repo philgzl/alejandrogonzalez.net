@@ -3,111 +3,20 @@ layout: default
 support: [jquery, gallery]
 ---
 
-<style type="text/css">
-  .grid-item img {
-     width: 100% !important;
-     height: auto !important;
-  }
-
-  .grid-sizer,
-  .grid-item {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    padding: 10px;
-    width: 25%;
-  }
-
-  @media (max-width: 1000px) {
-    .grid-sizer,
-    .grid-item {
-      width: 33%;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .grid-sizer,
-    .grid-item {
-      width: 50%;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .grid-sizer,
-    .grid-item {
-      width: 100%;
-    }
-  }
-
-  .lg-backdrop.in {
-    opacity: 0.8 !important;
-  }
-
-  .lg-container *:not(.lg-backdrop.in) {
-    background-color: transparent;
-  }
-
-  .loader-ellips {
-    font-size: 20px;
-    position: relative;
-    width: 4em;
-    height: 1em;
-    margin: 10px auto;
-  }
-
-  .loader-ellips__dot {
-    display: block;
-    width: 1em;
-    height: 1em;
-    border-radius: 0.5em;
-    background: #333;
-    position: absolute;
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-  }
-
-  .loader-ellips__dot--1,
-  .loader-ellips__dot--2 {
-    left: 0;
-  }
-  .loader-ellips__dot--3 { left: 1.5em; }
-  .loader-ellips__dot--4 { left: 3em; }
-
-  @keyframes reveal {
-    from { transform: scale(0.001); }
-    to { transform: scale(1); }
-  }
-
-  @keyframes slide {
-    to { transform: translateX(1.5em) }
-  }
-
-  .loader-ellips__dot--1 {
-    animation-name: reveal;
-  }
-
-  .loader-ellips__dot--2,
-  .loader-ellips__dot--3 {
-    animation-name: slide;
-  }
-
-  .loader-ellips__dot--4 {
-    animation-name: reveal;
-    animation-direction: reverse;
-  }
-</style>
-
 <div id="grid">
   <div class="grid-sizer"></div>
-  {% for filename in page.filenames %}
+  {% for file in page.files %}
   <div class="grid-item">
-    <a class="image" href="{{ page.baseurl }}/{{ page.folder }}/{{ filename }}">
-      <img src="{{ page.baseurl }}/{{ page.folder }}/{{ filename }}">
+    <a class="image-container" href="{{ page.baseurl }}/{{ page.folder }}/{{ file.name }}">
+      <img class="image" src="{{ page.baseurl }}/c_scale,w_0.25/{{ page.folder }}/{{ file.name }}">
+      <div class="overlay">
+        <p class="overlay-text">{{ file.title }}</p>
+      </div>
     </a>
   </div>
   {% endfor %}
 </div>
+
 
 <div class="scroll-status">
   <div class="infinite-scroll-request">
@@ -122,7 +31,7 @@ support: [jquery, gallery]
 
 <script>
   let lg = lightGallery(document.getElementById('grid'), {
-    selector: '.image',
+    selector: '.image-container',
     download: false,
     mobileSettings: {
       showCloseIcon: true,

@@ -1,8 +1,5 @@
 # Site Build Settings
 
-# Base url, set to '' when previewing locally using jekyll serve --baseurl ''
-baseurl:             /alejandrogonzalez.net
-
 # jekyll-paginate configuration
 paginate:            5
 
@@ -13,9 +10,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag, jekyll-datapage-generator]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Alejandro Gonzalez"
+title:		           "Alejandro González"
 description:	       "Fotografía"
-author:              "Alejandro Gonzalez"
+author:              "Alejandro González"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

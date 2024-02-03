@@ -1,7 +1,15 @@
 ---
 layout: page
-title: About
+title: Sobre mí
 permalink: /about
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out the documentation.
+Mi pasión por la fotografía, que comenzó a la edad de 14 años cuando era estudiante del bachillerato en Bogotá, me ha llevado por el mundo con mi cámara plasmando la realidad y belleza de cientos de ciudades. 
+
+En mi ciudad natal, Bogotá, realicé estudios superiores de cine y fotografía. Me especialicé en fotografía publicitaria e industrial al tiempo que realicé proyectos personales en las diferentes partes del mundo que he tenido oportunidad de recorrer.  
+Igualmente he compartido mis conocimientos desarrollando talleres de formación fotográfica con jóvenes y adultos
+
+Hace 24 años dejé Colombia para instalarme en diferentes continentes. Actualmente vivo en Perú. 
+Esto me ha permitido descubrir culturas diferentes y tener una mirada personal de cada sitio que he conocido.
+
+Con esta página quiero compartir parte de mi trabajo que espero disfruten.

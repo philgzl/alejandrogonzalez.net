@@ -3,63 +3,104 @@
   pagecount: 4
   baseurl: https://res.cloudinary.com/dozvv41g3/image/upload
   folder: alejo
-  filenames:
-  - chahme42csucutcvvnci.jpg
-  - cnxmiopf1qqcxngogsl7.jpg
-  - dnbgny2khcpvtw8hc6ix.jpg
-  - duk6plvsq1fw1rfaltff.jpg
-  - ebvozpgiqvtygnjzjodd.jpg
-  - eiie3kabxiisqs1wzfbf.jpg
-  - fljywbs8byotsokiuywg.jpg
-  - fm52i6htk6yeh6evxrpy.jpg
-  - gdvqz9mijjbpxzsredvb.jpg
-  - gfqqzcnjo65spusxoykj.jpg
-  - h3gzpsfnzplefyfxbyux.jpg
-  - i2tfqei3blr4e9pximuh.jpg
+  files:
+  - name: chahme42csucutcvvnci.jpg
+    title: Chipre
+  - name: cnxmiopf1qqcxngogsl7.jpg
+    title: Estados Unidos
+  - name: dnbgny2khcpvtw8hc6ix.jpg
+    title: Rumania
+  - name: duk6plvsq1fw1rfaltff.jpg
+    title: Chile
+  - name: ebvozpgiqvtygnjzjodd.jpg
+    title: Hungría
+  - name: eiie3kabxiisqs1wzfbf.jpg
+    title: Bolivia
+  - name: fljywbs8byotsokiuywg.jpg
+    title: Ecuador
+  - name: fm52i6htk6yeh6evxrpy.jpg
+    title: España
+  - name: gdvqz9mijjbpxzsredvb.jpg
+    title: Australia
+  - name: gfqqzcnjo65spusxoykj.jpg
+    title: Jamaica
+  - name: h3gzpsfnzplefyfxbyux.jpg
+    title: Bélgica
+  - name: i2tfqei3blr4e9pximuh.jpg
+    title: Dinamarca
 - page: 'page2'
   title: Alejandro Gonzalez | Page 2
   pagecount: 4
   baseurl: https://res.cloudinary.com/dozvv41g3/image/upload
   folder: alejo
-  filenames:
-  - ibofyskkvwhlarydmoxk.jpg
-  - lglhemb1mkssqcbuietk.jpg
-  - lniy06mis34d5ly8pu8q.jpg
-  - lumicuhrwgf5z2fmpky0.jpg
-  - marw4n4osdjifedzgm5b.jpg
-  - mkr07ai37q7yqruujxbe.jpg
-  - n7uyrmu2kyfx9nvdfx8w.jpg
-  - nsnm3crew45firrlwc68.jpg
-  - nucdpr7bwswmjtrfo0dk.jpg
-  - oawq6xaj333ghtdfhutm.jpg
-  - otz61ji2aptgkmyvxpsp.jpg
-  - oufhf76xcaa6teo2vkhx.jpg
+  files:
+  - name: ibofyskkvwhlarydmoxk.jpg
+    title: Corea
+  - name: lglhemb1mkssqcbuietk.jpg
+    title: Jordania
+  - name: lniy06mis34d5ly8pu8q.jpg
+    title: Cuba
+  - name: lumicuhrwgf5z2fmpky0.jpg
+    title: Brasil
+  - name: marw4n4osdjifedzgm5b.jpg
+    title: Suiza
+  - name: mkr07ai37q7yqruujxbe.jpg
+    title: Francia
+  - name: n7uyrmu2kyfx9nvdfx8w.jpg
+    title: Inglaterra
+  - name: nsnm3crew45firrlwc68.jpg
+    title: Colombia
+  - name: nucdpr7bwswmjtrfo0dk.jpg
+    title: República Dominicana
+  - name: oawq6xaj333ghtdfhutm.jpg
+    title: Polonia
+  - name: otz61ji2aptgkmyvxpsp.jpg
+    title: Ghana
+  - name: oufhf76xcaa6teo2vkhx.jpg
+    title: Suecia
 - page: 'page3'
   title: Alejandro Gonzalez | Page 3
   pagecount: 4
   baseurl: https://res.cloudinary.com/dozvv41g3/image/upload
   folder: alejo
-  filenames:
-  - pbduqpmxfyzmuvcxgzpd.jpg
-  - qopffsdvzgxkjcoanw79.jpg
-  - qq127db9cxpsi4mlfnkh.jpg
-  - qy9k2fpckv6gpaj8l4ke.jpg
-  - qylpryq7wbvg4m4ozpsi.jpg
-  - rrnb5kccnwor4ogk9fjj.jpg
-  - sb2zii7yw3nkrazdvdrx.jpg
-  - sxagion5twivjbv3jree.jpg
-  - t69xiorzyjz3aofejonp.jpg
-  - twj3amrwmriqh6gie2hb.jpg
-  - uenqxjoztgdzmrpyfswd.jpg
-  - wvgwz0l9svwvufvvxkw2.jpg
+  files:
+  - name: pbduqpmxfyzmuvcxgzpd.jpg
+    title: Marruecos
+  - name: qopffsdvzgxkjcoanw79.jpg
+    title: Perú
+  - name: qq127db9cxpsi4mlfnkh.jpg
+    title: Argentina
+  - name: qy9k2fpckv6gpaj8l4ke.jpg
+    title: República Checa
+  - name: qylpryq7wbvg4m4ozpsi.jpg
+    title: Alemania
+  - name: rrnb5kccnwor4ogk9fjj.jpg
+    title: Turquía
+  - name: sb2zii7yw3nkrazdvdrx.jpg
+    title: Tailandia
+  - name: sxagion5twivjbv3jree.jpg
+    title: Croacia
+  - name: t69xiorzyjz3aofejonp.jpg
+    title: Grecia
+  - name: twj3amrwmriqh6gie2hb.jpg
+    title: Austria
+  - name: uenqxjoztgdzmrpyfswd.jpg
+    title: Hungría
+  - name: wvgwz0l9svwvufvvxkw2.jpg
+    title: Islandia
 - page: 'page4'
   title: Alejandro Gonzalez | Page 4
   pagecount: 4
   baseurl: https://res.cloudinary.com/dozvv41g3/image/upload
   folder: alejo
-  filenames:
-  - xbhdfgis52dtlszqa8tm.jpg
-  - xibr5rrgubbhdeudptot.jpg
-  - xz5dm6w7ojxska09nwgz.jpg
-  - y7bwgormwp71lo1exfrp.jpg
-  - zazelcacwx6eszx5thou.jpg
+  files:
+  - name: xbhdfgis52dtlszqa8tm.jpg
+    title: Canadá
+  - name: xibr5rrgubbhdeudptot.jpg
+    title: Costa de Marfil
+  - name: xz5dm6w7ojxska09nwgz.jpg
+    title: Italia
+  - name: y7bwgormwp71lo1exfrp.jpg
+    title: Siria
+  - name: zazelcacwx6eszx5thou.jpg
+    title: Escocia

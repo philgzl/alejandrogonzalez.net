@@ -1,5 +1,5 @@
 menu:
-- {name: 'About',              url: 'about'}
+- {name: 'Sobre mí',              url: 'about'}
 
 social:
 - {icon: 'facebook', link:   'https://www.facebook.com/profile.php?id=100042368234791'}
