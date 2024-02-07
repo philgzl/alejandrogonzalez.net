@@ -40,7 +40,7 @@ h4, h5, h6 {
 
 /* Body */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Fahkwang", serif;
 }
 
 body img {
@@ -48,13 +48,14 @@ body img {
 }
 
 p {
+  font-size: 1.1rem;
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   line-height: 1.65;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fahkwang", serif;
 }
 
 /* Lists */
@@ -62,7 +63,7 @@ ul, ol, dl {
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fahkwang", serif;
 }
 
 ol li {
@@ -203,7 +204,7 @@ pre code {
 }
 
 .content-wrapper {
-  padding-top: 66px;
+  padding-top: 87px;
   margin: auto;
   display: block;
   width: 100%;
@@ -220,7 +221,7 @@ pre code {
     margin-right: auto;
   }
   .content-wrapper {
-    padding-top: 66px;
+    padding-top: 87px;
     margin: auto;
     display: block;
     width: 95vw;
@@ -402,7 +403,7 @@ pre code {
 }
 
 .site-header {
-  min-height: 56px;
+  min-height: 70px;
   width: 100%;
   position: fixed;
   background-color: white;
@@ -415,23 +416,29 @@ pre code {
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 56px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 70px;
   margin-bottom: 0;
   margin-top: 0;
-  padding-left: 15px;
+  padding-left: 20px;
   float: left;
 }
 
+.site-subtitle {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
 .menu-list {
-  line-height: 56px;
+  font-size: 20px;
+  line-height: 77px;
   float: right;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .menu-link {
-  padding: 5px;
+  padding: 7px;
 }
 
 /*
@@ -642,7 +649,7 @@ pre code {
 .related-title {
   float: right;
   padding-bottom: 0.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fahkwang", serif;
 }
 
 @media (max-width: 100%) {
