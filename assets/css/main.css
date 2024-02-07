@@ -444,7 +444,7 @@ pre code {
 /*
   Responsiveness with a dropdown menu
 */
-@media (min-width: 600px) {
+@media (min-width: 850px) {
   .dropbtn {
     display: none;
   }
@@ -452,7 +452,7 @@ pre code {
     display: none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .menu-list {
     display: none;
   }
@@ -467,6 +467,7 @@ pre code {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    font-size: 20px;
   }
   .dropdown {
     position: relative;
@@ -497,6 +498,19 @@ pre code {
   }
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
+  }
+}
+@media (max-width: 650px) {
+  .site-title {
+    font-size: 20px;
+  }
+  .site-subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  .site-subtitle {
+    display: none;
   }
 }
 .featured-post {
