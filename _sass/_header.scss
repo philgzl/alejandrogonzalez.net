@@ -1,5 +1,5 @@
 .site-header {
-  min-height: 56px;
+  min-height: 70px;
   width: $container-width;
   position: fixed;
   background-color: white;
@@ -10,21 +10,26 @@
   text-decoration: none;
 }
 .site-title {
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 56px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 70px;
   margin-bottom: 0;
   margin-top: 0;
-  padding-left: 15px;
+  padding-left: 20px;
   float: left;
 }
+.site-subtitle {
+  font-size: 20px;
+  padding-left: 10px;
+}
 .menu-list {
+  font-size: 20px;
   line-height: $header-thickness;
   float: right;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .menu-link {
-  padding: 5px;
+  padding: 7px;
 }
 
 /*
@@ -54,6 +59,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    font-size: 20px;
   }
   .dropdown {
     position: relative;
@@ -84,5 +90,18 @@
   }
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
+  }
+}
+@media (max-width: $very-small-width) {
+  .site-title {
+    font-size: 20px;
+  }
+  .site-subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: $ultra-small-width) {
+  .site-subtitle {
+    display: none;
   }
 }
